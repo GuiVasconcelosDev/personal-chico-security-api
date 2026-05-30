@@ -38,8 +38,13 @@ local_settings.py
 
 # Database
 *.sqlite3
+__pycache__/
+*.pyc
 *.sqlite
 *.db
+
+# Arquivos estaticos coletados
+staticfiles/
 
 # IDE
 .vscode/
